@@ -4,6 +4,7 @@ import "../styles/global.css";
 
 // Components
 import Footer from "../components/Footer.astro";
+import Navbar from "../components/Navbar.astro";
 
 // Props
 interface Props {
@@ -33,6 +34,7 @@ const {
     />
   </head>
   <body>
+    <Navbar />
     <slot />
     <Footer />
   </body>

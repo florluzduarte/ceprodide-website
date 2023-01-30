@@ -1,0 +1,121 @@
+---
+// Integrations
+import { Icon } from "astro-icon";
+
+// Components
+import Logo from "./Logo.astro";
+
+// Data
+import socialMediaData from "../data/socialMedia.json";
+
+const navLinks = [
+  {
+    name: "Proyectos",
+    path: "/proyectos/",
+  },
+  {
+    name: "Investigadores",
+    path: "/investigadores/",
+  },
+  {
+    name: "Blog",
+    path: "/blog/",
+  },
+];
+---
+
+<nav>
+  <div class="nav--container">
+    <Logo />
+    <div class="nav--links-container">
+      <ul class="nav--links" role="navigation">
+        {
+          navLinks.map((link) => (
+            <li role="none" class="nav--link">
+              <a href={link.path}>{link.name}</a>
+            </li>
+          ))
+        }
+      </ul>
+      <div class="nav--social-media">
+        {
+          socialMediaData.map((link) => (
+            <a href={link.href} target="_blank" aria-label={link.aria}>
+              <Icon name={link.name} width={link.width} height={link.height} />
+            </a>
+          ))
+        }
+      </div>
+    </div>
+    <button class="nav--btn-menu" id="nav--btn-menu">
+      <Icon
+        name="ri:menu-3-fill"
+        width="24"
+        height="24"
+        aria-label="Abrir navegación móvil"
+        aria-expanded="false"
+      />
+    </button>
+  </div>
+</nav>
+
+<!-- Component styles -->
+
+<style>
+  .nav--container {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--white);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .nav--links-container {
+    display: none;
+  }
+
+  @media screen and (min-width: 1360px) {
+    .nav--container {
+      padding: 2rem 0;
+    }
+
+    .nav--links-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .nav--links {
+      display: flex;
+      gap: 2rem;
+      padding: 0 2rem;
+    }
+
+    .nav--social-media {
+      display: flex;
+      gap: 2rem;
+    }
+
+    .nav--btn-menu {
+      display: none;
+    }
+  }
+
+  .nav--btn-menu {
+    border: none;
+    color: var(--black);
+    background-color: transparent;
+    cursor: pointer;
+  }
+</style>
+
+<!-- Menu functionality -->
+<!-- <script>
+  const navBtn = document.querySelector("#menu-btn");
+  navBtn.addEventListener("click", () => {
+    navBtn.setAttribute(
+      "aria-expanded",
+      navBtn.getAttribute("aria-expanded") === "false" ? "true" : "false"
+    );
+  });
+</script> -->

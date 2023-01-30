@@ -5,28 +5,13 @@ import { Icon } from "astro-icon";
 // Components
 import Logo from "../components/Logo.astro";
 
-const socialMediaData = [
-  {
-    name: "ant-design:linkedin-filled",
-    width: 36,
-    height: 36,
-    href: "https://www.linkedin.com/company/ceprodide/",
-    aria: "Visita nuestra página de LinkedIn",
-  },
-  {
-    name: "ph:instagram-logo-fill",
-    width: 36,
-    height: 36,
-    href: "https://www.instagram.com/ceprodide/",
-    aria: "Visita nuestro perfil de Instagram",
-  },
-];
+// Data
+import socialMediaData from "../data/socialMedia.json";
 ---
 
 <footer>
   <div class="footer--container">
     <div class="footer--container-links">
-      <!-- <a href=""><p class="logo">CEPRODIDE</p></a> -->
       <Logo />
       <div class="footer--social-icons">
         {

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "ant-design:linkedin-filled",
+    "width": 36,
+    "height": 36,
+    "href": "https://www.linkedin.com/company/ceprodide/",
+    "aria": "Visita nuestra página de LinkedIn"
+  },
+  {
+    "name": "ph:instagram-logo-fill",
+    "width": 36,
+    "height": 36,
+    "href": "https://www.instagram.com/ceprodide/",
+    "aria": "Visita nuestro perfil de Instagram"
+  }
+]

@@ -83,6 +83,8 @@ h2 {
   }
 }
 
+/* Anchor tags */
+
 a {
   text-decoration: none;
   color: var(--black);
@@ -90,4 +92,10 @@ a {
 
 a:hover {
   color: var(--blue-lm);
+}
+
+/* Lists */
+
+ul {
+  list-style-type: none;
 }
