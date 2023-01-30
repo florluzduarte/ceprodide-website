@@ -1,0 +1,110 @@
+---
+// Integrations
+import { Icon } from "astro-icon";
+
+// Components
+import Logo from "../components/Logo.astro";
+
+const socialMediaData = [
+  {
+    name: "ant-design:linkedin-filled",
+    width: 36,
+    height: 36,
+    href: "https://www.linkedin.com/company/ceprodide/",
+    aria: "Visita nuestra página de LinkedIn",
+  },
+  {
+    name: "ph:instagram-logo-fill",
+    width: 36,
+    height: 36,
+    href: "https://www.instagram.com/ceprodide/",
+    aria: "Visita nuestro perfil de Instagram",
+  },
+];
+---
+
+<footer>
+  <div class="footer--container">
+    <div class="footer--container-links">
+      <!-- <a href=""><p class="logo">CEPRODIDE</p></a> -->
+      <Logo />
+      <div class="footer--social-icons">
+        {
+          socialMediaData.map((icon) => (
+            <a href={icon.href} aria-label={icon.aria} target="_blank">
+              <Icon name={icon.name} height={icon.height} width={icon.width} />
+            </a>
+          ))
+        }
+      </div>
+    </div>
+    <div class="footer--container-text">
+      <p class="bold-text small-text footer--adress">
+        Piso 4, Pabellón 3, Int. Güiraldes 2160, Buenos Aires
+      </p>
+      <p class="small-text footer--copyright">
+        Copyright &copy; <span class="footer--year"></span> - Todos los derechos
+        reservados
+      </p>
+    </div>
+  </div>
+</footer>
+
+<!-- Component Styles -->
+<style>
+  .footer--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  @media screen and (min-width: 1360px) {
+    .footer--container {
+      gap: 1rem;
+    }
+  }
+
+  .footer--container-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  @media screen and (min-width: 1360px) {
+    .footer--container-text {
+      flex-direction: row;
+      gap: 2rem;
+    }
+  }
+
+  .footer--container-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .footer--social-icons {
+    display: flex;
+    gap: 0.75rem;
+  }
+
+  .footer--adress {
+    text-align: center;
+  }
+
+  .footer--copyright {
+    text-align: center;
+  }
+</style>
+
+<!-- Component JS -->
+<script>
+  document.querySelector(".footer--year").textContent = new Date()
+    .getFullYear()
+    .toString();
+</script>

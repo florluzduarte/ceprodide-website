@@ -1,0 +1,93 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+:root {
+  /* Colors */
+  --blue-lm: #0339e1;
+  --blue-dm: #6c90ff;
+  --white: #f4f4f4;
+  --black: #231f20;
+  --coral: #ff715b;
+  --green: #44cf6c;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  font-weight: 400;
+  line-height: 1.55;
+  max-width: 1200px;
+  margin: auto;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+/* Font styles */
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--blue-lm);
+}
+
+@media screen and (min-width: 1360px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+@media screen and (min-width: 1360px) {
+  h2 {
+    font-size: 1.875rem;
+  }
+}
+
+.caption {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1360px) {
+  .caption {
+    font-size: 1.5rem;
+  }
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.small-text {
+  font-size: 0.75rem;
+}
+
+@media screen and (min-width: 1360px) {
+  .small-text {
+    font-size: 0.875rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+a:hover {
+  color: var(--blue-lm);
+}
