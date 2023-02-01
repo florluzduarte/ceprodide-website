@@ -119,7 +119,7 @@ a:hover {
 
 /* Lists */
 
-ul {
+ul[role="navigation"] {
   list-style-type: none;
 }
 

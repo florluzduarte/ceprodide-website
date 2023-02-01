@@ -4,11 +4,57 @@ import MainLayout from "../layouts/MainLayout.astro";
 
 // Components
 import Hero from "../components/Hero.astro";
+import Link from "../components/Link.astro";
 ---
 
 <MainLayout>
   <Hero
     title="Centro de Proyecto, Diseño y Desarrollo"
     caption="formación - extensión - investigación"
-  />
+  >
+    <Link text="Ver proyectos" href="#proyectos" style="primary" />
+  </Hero>
+  <section>
+    <div class="description--container">
+      <p>
+        El Centro es un espacio de Investigación con sede en la Facultad de
+        Arquitectura, Diseño y Urbanismo (FADU) de la Universidad de Buenos
+        Aires (UBA).
+      </p>
+      <p>
+        El Diseño para el Desarrollo, es un campo desarrollado en nuestra
+        Facultad, y validado a nivel nacional y regional. Es en el CEPRODIDE,
+        donde se asienta un núcleo de reflexión sobre esta temática con impacto
+        regional.
+      </p>
+    </div>
+  </section>
 </MainLayout>
+
+<style>
+  .description--container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+
+  @media screen and (min-width: 765px) and (max-width: 1359px) {
+    .description--container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+  }
+
+  @media screen and (min-width: 1360px) {
+    .description--container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      max-width: 75%;
+      gap: 7.5rem;
+    }
+  }
+</style>
