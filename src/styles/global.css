@@ -14,13 +14,32 @@ svg {
 }
 
 :root {
-  /* Colors */
+  /* Colors Light Mode */
   --blue-lm: #0339e1;
-  --blue-dm: #6c90ff;
   --white: #f4f4f4;
+
+  /* Colors Dark Mode */
+  --blue-dm: #6c90ff;
   --black: #231f20;
+
+  /* Other Colors */
   --coral: #ff715b;
   --green: #44cf6c;
+
+  /* Light mode variables */
+  --bkg: var(--white);
+  --text-color: var(--black);
+  --blue: var(--blue-lm);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bkg: var(--black);
+    --text-color: var(--white);
+    --blue: var(--blue-dm);
+    color-scheme: dark;
+  }
 }
 
 body {
@@ -29,8 +48,8 @@ body {
   line-height: 1.55;
   max-width: 1200px;
   margin: auto;
-  background-color: var(--white);
-  color: var(--black);
+  background-color: var(--bkg);
+  color: var(--text-color);
 }
 
 /* Font styles */
@@ -38,7 +57,7 @@ body {
 h1 {
   font-weight: 700;
   font-size: 2rem;
-  color: var(--blue-lm);
+  color: var(--blue);
 }
 
 @media screen and (min-width: 1360px) {
@@ -87,11 +106,11 @@ h2 {
 
 a {
   text-decoration: none;
-  color: var(--black);
+  color: var(--text-color);
 }
 
 a:hover {
-  color: var(--blue-lm);
+  color: var(--blue);
 }
 
 /* Lists */
