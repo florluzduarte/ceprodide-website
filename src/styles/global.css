@@ -30,6 +30,8 @@ svg {
   --bkg: var(--white);
   --text-color: var(--black);
   --blue: var(--blue-lm);
+  --bkg-inverse: var(--black);
+  --text-color-inverse: var(--white);
   color-scheme: light;
 }
 
@@ -38,6 +40,8 @@ svg {
     --bkg: var(--black);
     --text-color: var(--white);
     --blue: var(--blue-dm);
+    --bkg-inverse: var(--white);
+    --text-color-inverse: var(--black);
     color-scheme: dark;
   }
 }
