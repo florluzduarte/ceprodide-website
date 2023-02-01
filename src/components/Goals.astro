@@ -1,0 +1,77 @@
+---
+// Integrations
+import { Icon } from "astro-icon";
+
+// Data
+import goals from "../data/goals.json";
+---
+
+<section class="goals">
+  <h2 class="goals--title">Objetivos del centro</h2>
+  <span class="line"></span>
+  <div class="goals--list">
+    {
+      goals.map((goal) => (
+        <div class="goals--wrapper">
+          <div class="goals--icon-wrapper">
+            <Icon
+              name="ri:arrow-right-s-line"
+              width="24"
+              height="24"
+              class="goals--icon"
+            />
+          </div>
+          <p class="goals--description">{goal.goal}</p>
+        </div>
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .goals {
+    display: flex;
+    flex-direction: column;
+    max-width: 85%;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+
+  .goals--title {
+    margin-top: 2rem;
+  }
+
+  .goals--list {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    gap: 2rem;
+  }
+
+  .goals--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .goals--description {
+    max-width: 85%;
+  }
+
+  .goals--icon {
+    color: var(--blue);
+  }
+
+  @media screen and (min-width: 765px) and (max-width: 1359px) {
+    .goals--list {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media screen and (min-width: 1360px) {
+    .goals--list {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+</style>

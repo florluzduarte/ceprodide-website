@@ -64,6 +64,12 @@ h1 {
   color: var(--blue);
 }
 
+@media screen and (min-width: 765px) and (max-width: 1359px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
 @media screen and (min-width: 1360px) {
   h1 {
     font-size: 5rem;
@@ -75,6 +81,12 @@ h2 {
   font-size: 1.125rem;
 }
 
+@media screen and (min-width: 765px) and (max-width: 1359px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
 @media screen and (min-width: 1360px) {
   h2 {
     font-size: 1.875rem;
@@ -84,6 +96,12 @@ h2 {
 .caption {
   font-size: 0.75rem;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 765px) and (max-width: 1359px) {
+  .caption {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (min-width: 1360px) {
@@ -124,3 +142,17 @@ ul[role="navigation"] {
 }
 
 /* Miscellaneous */
+
+.line {
+  height: 1px;
+  background-color: var(--bkg-inverse);
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 765px) {
+  .line {
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+  }
+}
