@@ -28,7 +28,7 @@ const navLinks = [
 ];
 ---
 
-<nav>
+<nav class="nav">
   <div class="nav--container">
     <div class="nav--mobile-wrapper">
       <Logo />
@@ -75,6 +75,11 @@ const navLinks = [
 </nav>
 
 <style>
+  .nav {
+    position: sticky;
+    top: 0;
+  }
+
   .nav--container {
     display: flex;
     flex-direction: row;
@@ -143,6 +148,8 @@ const navLinks = [
   @media screen and (min-width: 760px) {
     .nav--container {
       padding: 2rem;
+      width: 100%;
+      margin: 0 auto;
     }
 
     .nav--mobile-wrapper {
