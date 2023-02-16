@@ -1,0 +1,33 @@
+---
+// Layout
+import MainLayout from "./MainLayout.astro";
+
+// Integrations
+import { Image } from "@astrojs/image/components";
+
+// Components
+import Hero from "../components/Hero.astro";
+
+// Props
+const { frontmatter } = Astro.props;
+const { title, author, image, description } = frontmatter;
+---
+
+<MainLayout title={title} content={description}>
+  <header>
+    <Hero title={title} caption={author} />
+    <Image
+      src={image.src}
+      alt={image.alt}
+      width={1366}
+      height={464}
+      format="avif"
+      fit="cover"
+    />
+  </header>
+  <div class="project--content-container">
+    <div class="project--content">
+      <slot />
+    </div>
+  </div>
+</MainLayout>

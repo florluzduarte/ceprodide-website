@@ -1,19 +1,17 @@
 ---
-layout: "../../layouts/BlogLayout.astro"
-title: Innovaciones disruptivas, diseño y desarrollo. De las demandas sociales a la producción de bienes de capital con recursos de Open tecnology
-date: 2023-02-14
+layout: "../../layouts/ProjectLayout.astro"
+title: Innovaciones disruptivas, diseño y desarrollo
 author: Lic. Juan Alfonso Samaja
 image:
   {
-    src: "/images/post-1.jpg",
-    alt: "Imagen de un cuaderno con bocetos y croquis",
+    src: "/images/image-1.png",
+    alt: "Persona trabajando con una plaqueta electrónica",
   }
 description: Exploremos la conexión que existe entre el Diseño y las innovaciones disruptivas
 draft: false
-category: Tecnología
 ---
 
-## De las demandas sociales a los bienes de capital en baja escala
+## De las demandas sociales a los bienes de capital en baja escala con recursos de Open Technology
 
 El seguimiento de nuevas demandas sociales, y la maduración de ámbitos emergentes crea oportunidades para innovaciones de producto de carácter disruptivo, a partir de sistemas de sostén conformadas por redes de usuarios, productores usuarios y unidades productivas capaces de involucrarse en procesos de aprendizaje (Christensen ,1999). Series bajas, productos en espacios que antes no había, sectores no atendidos por las tecnologías tradicionales, productos con nuevas arquitecturas, susceptibles de desplegarse en familias para cubrir nichos más específicos, conforme crece la demanda.
 
