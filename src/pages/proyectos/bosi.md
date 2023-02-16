@@ -1,16 +1,14 @@
 ---
-layout: "../../layouts/BlogLayout.astro"
-title: GUADUAR
-date: 2023-02-14
+layout: "../../layouts/ProjectLayout.astro"
+title: Proyecto Guadar
 author: D.I. Gianpiero Bosi y Equipo
 image:
   {
-    src: "/images/post-1.jpg",
-    alt: "Imagen de un cuaderno con bocetos y croquis",
+    src: "/images/image-2.png",
+    alt: "Persona sosteniendo un vaso de agua pura",
   }
 description: Guadar es un biocarbón impregnado con nanopartículas de hierro, capaz de proveer de agua libre de arsésico a pobalaciones dispersas
 draft: false
-category: Investigación
 ---
 
 ## Proyecto
@@ -21,7 +19,7 @@ Guaduar es un biocarbón impregnado con nanopartículas de hierro, sintetizado a
 
 El rol del diseño es trasformar un desarrollo científico en un producto socialmente accesible mediante el diseño de sus dimensiones funcionales, formales y tecnoproductivas.
 
-## Perfil del emprendimiento - GUADUAR
+## Perfil del emprendimiento
 
 ### ¿Desde cuando existe?
 
