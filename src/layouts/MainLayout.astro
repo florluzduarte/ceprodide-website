@@ -6,15 +6,17 @@ import "../styles/global.css";
 import Footer from "../components/Footer.astro";
 import Navbar from "../components/Navbar.astro";
 
-// Props
+//Props
 interface Props {
   title?: string;
   content?: string;
+  style?: "main" | "main-blog";
 }
 
 const {
   title = "CEPRODIDE",
   content = "Centro de Proyecto, Diseño y Desarrollo (FADU-UBA)",
+  style = "main",
 } = Astro.props as Props;
 ---
 
@@ -35,7 +37,7 @@ const {
   </head>
   <body>
     <Navbar />
-    <main>
+    <main class={style}>
       <slot />
     </main>
     <Footer />
