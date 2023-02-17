@@ -4,7 +4,7 @@ title: Proyecto Guadar
 author: D.I. Gianpiero Bosi y Equipo
 image:
   {
-    src: "/images/image-2.png",
+    src: "/images/image-2.avif",
     alt: "Persona sosteniendo un vaso de agua pura",
   }
 description: Guadar es un biocarbón impregnado con nanopartículas de hierro, capaz de proveer de agua libre de arsésico a pobalaciones dispersas
