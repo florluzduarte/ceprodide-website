@@ -4,7 +4,7 @@ title: Innovaciones disruptivas, diseño y desarrollo
 author: Lic. Juan Alfonso Samaja
 image:
   {
-    src: "/images/image-1.png",
+    src: "https://res.cloudinary.com/dfzncn1pd/image/upload/v1676986300/CEPRODIDE/image-1_eoejb0.avif",
     alt: "Persona trabajando con una plaqueta electrónica",
   }
 description: Exploremos la conexión que existe entre el Diseño y las innovaciones disruptivas

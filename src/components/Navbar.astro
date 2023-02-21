@@ -51,7 +51,9 @@ const navLinks = [
         {
           navLinks.map((link) => (
             <li role="none" class="nav--link">
-              <a href={link.path}>{link.name}</a>
+              <a href={link.path} class="nav--anchor">
+                {link.name}
+              </a>
             </li>
           ))
         }
@@ -59,7 +61,12 @@ const navLinks = [
       <div class="nav--social-media">
         {
           socialMediaData.map((link) => (
-            <a href={link.href} target="_blank" aria-label={link.aria}>
+            <a
+              href={link.href}
+              target="_blank"
+              aria-label={link.aria}
+              class="nav--anchor"
+            >
               <Icon name={link.name} width={link.width} height={link.height} />
             </a>
           ))
@@ -70,7 +77,9 @@ const navLinks = [
       {
         navLinks.map((link) => (
           <li role="none" class="nav--link">
-            <a href={link.path}>{link.name}</a>
+            <a href={link.path} class="nav--anchor">
+              {link.name}
+            </a>
           </li>
         ))
       }
@@ -82,6 +91,7 @@ const navLinks = [
   .nav {
     position: sticky;
     top: 0;
+    background-color: var(--bkg);
   }
 
   .nav--container {
@@ -90,6 +100,12 @@ const navLinks = [
     background-color: var(--bkg);
     justify-content: space-between;
     align-items: center;
+  }
+
+  @media screen and (min-width: 1370px) {
+    .nav--container {
+      max-width: 95rem;
+    }
   }
 
   .nav--mobile-wrapper {
@@ -170,7 +186,11 @@ const navLinks = [
 
     .nav--links-desktop {
       display: flex;
-      gap: 3rem;
+      gap: 2.5rem;
+    }
+
+    .nav--link {
+      padding: 0;
     }
   }
 </style>
