@@ -16,7 +16,12 @@ import socialMediaData from "../data/socialMedia.json";
       <div class="footer--social-icons">
         {
           socialMediaData.map((icon) => (
-            <a href={icon.href} aria-label={icon.aria} target="_blank">
+            <a
+              href={icon.href}
+              aria-label={icon.aria}
+              target="_blank"
+              class="nav--anchor"
+            >
               <Icon name={icon.name} height={icon.height} width={icon.width} />
             </a>
           ))

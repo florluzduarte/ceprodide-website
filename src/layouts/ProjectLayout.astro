@@ -26,3 +26,26 @@ const { title, author, image, description } = frontmatter;
     </div>
   </div>
 </MainLayout>
+
+<style>
+  .project--content-container {
+    max-width: 80%;
+    margin: 3rem auto;
+  }
+
+  .project--content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  @media screen and (min-width: 760px) {
+    .project--content-container {
+      margin: 5rem auto;
+    }
+
+    .project--content {
+      gap: 2.5rem;
+    }
+  }
+</style>

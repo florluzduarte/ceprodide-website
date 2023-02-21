@@ -145,18 +145,33 @@ p {
 /* Anchor tags */
 
 a {
+  text-decoration: underline;
+  color: var(--blue);
+}
+
+a:hover {
+  color: var(--bkg-inverse);
+}
+
+.nav--anchor {
   text-decoration: none;
   color: var(--text-color);
 }
 
-a:hover {
+.nav--anchor:hover {
   color: var(--blue);
 }
 
 /* Lists */
 
+ul {
+  list-style-type: square;
+  margin-left: 2rem;
+}
+
 ul[role="navigation"] {
   list-style-type: none;
+  margin-left: 0;
 }
 
 /* Miscellaneous */
