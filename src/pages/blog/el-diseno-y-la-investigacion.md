@@ -5,7 +5,7 @@ date: 2021-07-15
 author: D.I. Malena Pasin
 image:
   {
-    src: "/images/post-1.jpg",
+    src: "https://res.cloudinary.com/dfzncn1pd/image/upload/v1677095220/CEPRODIDE/Blog/image-3_aazygi.avif",
     alt: "Imagen de un cuaderno con bocetos y croquis",
   }
 description: Exploremos la conexión que existe entre el Diseño y la Investigación
@@ -25,7 +25,7 @@ Pero ¿qué sucede con la mirada más amplia del diseño, en referencia al accio
 
 Ante un asunto problemático de la profesión, que definimos citando a Samaja (2004) como un problema científico, es necesaria una respuesta consistente con ello. No es un problema de hecho, solucionable con el recurso cognoscitivo disponible por quien lo atraviesa, ni un problema de conocimiento, de aquellos que escapan a nuestro saber, pero que otros conocen la solución… Los problemas científicos, exigirán exploraciones y metodologías afines a las etapas de los procesos de investigación.
 
-¡Sí! Diseño y ciencia van de la mano, abordando las estrategias para entender y establecer relaciones entre disciplina y profesión.
+**¡Sí! Diseño y ciencia van de la mano, abordando las estrategias para entender y establecer relaciones entre disciplina y profesión.**
 
 La exploración de nuevos escenarios de la práctica disciplinar, desarrolla la relación entre diseño e investigación formando un diseñador reflexivo, prepositivo y crítico, capaz de fundamentar sus hipótesis de proyecto y de producto. Para ello, es clave la comprensión contextualizada de los métodos de investigación para, por y con diseño.
 
@@ -37,10 +37,10 @@ Entonces, a través de visibilizar las lógicas de la investigación científica
 
 A grandes rasgos, el abordaje de un problema de esta categoría se encarará en etapas, afines a los procesos de investigación:
 
-- Etapa intuitiva, de acercamiento.  
+- **Etapa intuitiva, de acercamiento**  
   Aquí tanteamos…vamos observando y evaluando por dónde podrían pasar los problemas y/o conflictos mayores. Es una primera instancia heurística donde ponemos en marcha herramientas de observación y análisis que deben poder dar cuenta de manera sintética de un “Norte” o eje de análisis del problema.
 
-- Etapa de mapeo y recorte del problema.  
+- **Etapa de mapeo y recorte del problema**  
    En investigación en diseño, mapear es la acción de delimitar el contexto de trabajo. Este modelo de abordaje nos ayudará a establecer un primer orden de relaciones entre lo conocido del problema, lo que intuimos importante, pero por ahora no ha sido considerado clave y lo desconocido, terreno que deberemos explorar con atención.
 
   Nos propondremos definir un marco de referencia del problema que se investiga, un recorte específico que interese y un planteo de objetivos a los cuales llegar y qué hacer para obtener esa información.
@@ -49,14 +49,14 @@ A grandes rasgos, el abordaje de un problema de esta categoría se encarará en 
 
   Estas etapas son en general parte inicial de las investigaciones, para refinar las observaciones y las decisiones a futuro dentro del desarrollo del proyecto.
 
-- Etapa empírica y de posterior análisis  
+- **Etapa empírica y de posterior análisis**  
    En continuidad y a la par del conocimiento construido previamente, se avanza hacia la etapa de la exploración de casos o situaciones que puedan dar cuenta de cómo se visibiliza el problema. ¿Qué indicadores existen que muestren conflictos, o eventuales soluciones? Esto lo vemos en el territorio, operativamente, a veces en a través de observación directa del caso, a veces a través de opiniones de personas. Cada tema de diseño nos propondrá métodos de exploración diferentes.
 
   La búsqueda de casos es un recurso, cual cantera de analogías: situaciones similares en este u otro contexto de resolución, casos de éxito o de fracaso respecto a algún eje de análisis propuesto. Estos ejemplos -los casos-, brindan perspectivas desde la experiencia sensible que colaborarán, reconstruyendo puentes entre teoría y empiria a identificar variables claves, insumos disparadores para posibles puestas en acción de soluciones a las problemáticas exploradas.
 
   Se trata aquí de comprender fehacientemente cuál sería el dato clave; por dónde debería pasar eventualmente una solución de diseño no caprichosa sino justificada. Se analizan variables específicas de acuerdo al caso o tema. Un objetivo específico de esta etapa será construir modelos de observación posibles, en vistas de encontrar criterios, variables, nichos de desarrollo de acciones de diseño.
 
-- Etapa de construcción y testeo de hipótesis de proyecto  
+- **Etapa de construcción y testeo de hipótesis de proyecto**  
    Avanzamos hacia la etapa que tiene que ver con construir y testear hipótesis de proyecto, a fin de proyectar en el más amplio sentido de la palabra abordajes de posibles soluciones, en diversas escalas de acuerdo al caso.
 
 ¿Cómo se construyen datos para tomar decisiones? Necesitamos sintetizar información cualitativa y cuantitativa que nos dé herramientas de acuerdo a la problemática elegida.
