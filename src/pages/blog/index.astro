@@ -1,8 +1,20 @@
 ---
 // Layout
 import MainLayout from "../../layouts/MainLayout.astro";
+
+// Components
+import Hero from "../../components/Hero.astro";
 ---
 
-<MainLayout title="CEPRODIDE - Blog">
-  <h1>Blog</h1>
+<MainLayout
+  title="CEPRODIDE - Blog"
+  content="Artículos de interés producidos por el Centro y sus colaboradores"
+  style={"main"}
+>
+  <Hero title="Publicaciones" caption="Blog del centro y sus colaboradores" />
+  <section class="post--container">
+    <ul>
+      <li><a href="/blog/el-diseno-y-la-investigacion">Artículo 1</a></li>
+    </ul>
+  </section>
 </MainLayout>

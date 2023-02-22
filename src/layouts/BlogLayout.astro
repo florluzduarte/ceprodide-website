@@ -1,12 +1,72 @@
 ---
+// Styles
+import "../styles/global.css";
+
 // Layout
 import MainLayout from "./MainLayout.astro";
+
+// Components
+import Hero from "../components/Hero.astro";
+
+// Utils
+import { formatDate } from "../js/utils";
+
+// Props
+const { frontmatter } = Astro.props;
+const { title, date, author, image, description, category } = frontmatter;
 ---
 
-<MainLayout>
-  <div class="post-content">
-    <div class="content">
+<MainLayout title="CEPRODIDE - Blog" content={description} style="main-blog">
+  <Hero title={title} caption={author}>
+    <div class="blog--details-wrapper">
+      <p>
+        Categoría: <span class="blog--category">{category}</span>
+      </p>
+      <p>Publicación: {formatDate(date)}</p>
+    </div>
+  </Hero>
+  <img src={image.src} alt={image.alt} />
+  <div class="blog--content-container">
+    <div class="blog--content">
       <slot />
     </div>
   </div>
 </MainLayout>
+
+<style>
+  .blog--content-container {
+    max-width: 80%;
+    margin: 3rem auto;
+  }
+
+  .blog--content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  /* .blog--category {
+    background-color: var(--blue);
+    color: var(--bkg);
+    padding: 0.2rem;
+    border-radius: 4px;
+  } */
+
+  .blog--details-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  . @media screen and (min-width: 760px) {
+    .blog--content-container {
+      margin: 5rem auto;
+    }
+
+    .blog--content {
+      gap: 2.5rem;
+    }
+  }
+</style>
