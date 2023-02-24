@@ -13,15 +13,21 @@ import { formatDate } from "../js/utils";
 
 // Props
 const { frontmatter } = Astro.props;
-const { title, date, author, image, description, category } = frontmatter;
+const { title, date, author, image, description, categories } = frontmatter;
 ---
 
 <MainLayout title="CEPRODIDE - Blog" content={description} style="main-blog">
   <Hero title={title} caption={author}>
     <div class="blog--details-wrapper">
-      <p>
-        Categoría: <span class="blog--category">{category}</span>
-      </p>
+      <div>
+        <div class="blog--category-wrapper">
+          {
+            categories.map((category) => (
+              <p class="blog--category">{category}</p>
+            ))
+          }
+        </div>
+      </div>
       <p>Publicación: {formatDate(date)}</p>
     </div>
   </Hero>
@@ -45,19 +51,24 @@ const { title, date, author, image, description, category } = frontmatter;
     gap: 1.5rem;
   }
 
-  /* .blog--category {
-    background-color: var(--blue);
-    color: var(--bkg);
-    padding: 0.2rem;
+  .blog--category-wrapper {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .blog--category {
+    background-color: var(--bkg);
+    padding: 4px 10px;
+    border: 2px solid var(--blue);
     border-radius: 4px;
-  } */
+  }
 
   .blog--details-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 2rem;
   }
 
   . @media screen and (min-width: 760px) {

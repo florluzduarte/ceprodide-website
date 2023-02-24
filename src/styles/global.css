@@ -22,10 +22,6 @@ svg {
   --blue-dm: #6c90ff;
   --black: #231f20;
 
-  /* Other Colors */
-  --coral: #ff715b;
-  --green: #44cf6c;
-
   /* Light mode variables */
   --bkg: var(--white);
   --text-color: var(--black);

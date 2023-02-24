@@ -10,7 +10,7 @@ image:
   }
 description: Exploremos la conexión que existe entre el Diseño y la Investigación
 draft: false
-category: Investigación
+categories: [Investigación, Educación]
 ---
 
 Originalmente publicado en [Fundación Gutenberg](https://fundaciongutenberg.edu.ar/contenidos/news04/el-diseno-y-la-investigacion.html)
@@ -66,3 +66,7 @@ Es buen momento para recapitular y observar el camino realizado: ¿Cuál es el p
 Luego de eso…las puertas están abiertas a seguir explorando la disciplina, desde los límites de la profesión para ir siempre un poco más allá adentrándose en territorios mixtos y apasionantes.
 
 ¿Somos conscientes de la importancia de la investigación en diseño como vehículo para solidarizar los vínculos entre los nuevos campos de problemas del diseño y las soluciones actuales? Ésta ayudará a consolidar ideas, modelos, modos de acción que prevalezcan y sean transmisibles, colaborado de manera natural hacia un desarrollo amplio y común.
+
+<br/>
+
+---
