@@ -97,6 +97,14 @@ h2 {
   }
 }
 
+h3 {
+  color: var(--blue);
+}
+
+.h3 {
+  color: var(--text-color);
+}
+
 .caption {
   font-size: 0.75rem;
   text-transform: uppercase;

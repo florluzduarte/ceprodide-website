@@ -13,11 +13,19 @@ draft: false
 categories: [Investigación, Educación]
 ---
 
+<br/>
+
+---
+
 Originalmente publicado en [Fundación Gutenberg](https://fundaciongutenberg.edu.ar/contenidos/news04/el-diseno-y-la-investigacion.html)
+
+---
+
+</br>
 
 > La exploración de nuevos escenarios de la práctica disciplinar, desarrolla la relación entre diseño e investigación formando un diseñador reflexivo, propositivo y crítico, capaz de fundamentar sus hipótesis de proyecto y de producto.
 
-## Disciplina y profesión
+### Disciplina y profesión
 
 El diseño naturaliza cierta “ajenidad” con las lógicas científicas en general, más allá de las evidentes relaciones que se han forjado históricamente a través del desarrollo de las tecnologías aplicadas.
 
@@ -33,7 +41,7 @@ La profesión se expande, los límites se vuelven inciertos, los problemas son s
 
 Entonces, a través de visibilizar las lógicas de la investigación científica, hacemos operativamente más tangible el proceso de toma de decisiones del diseño. Las decisiones heurísticas, amplias del diseño, se verán beneficiadas con la estructura de soporte que puedan brindarle los procesos más consolidados de investigación científica.
 
-## Las etapas del proceso de investigación en diseño
+### Las etapas del proceso de investigación en diseño
 
 A grandes rasgos, el abordaje de un problema de esta categoría se encarará en etapas, afines a los procesos de investigación:
 
