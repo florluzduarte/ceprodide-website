@@ -10,7 +10,7 @@ image:
   }
 description: Semiótica de las innovaciones en el proceso del Diseño
 draft: false
-categories: [Metodología]
+categories: [Metodología, Semiótica]
 ---
 
 <br/>
@@ -88,9 +88,9 @@ Cada estrato se funda en una realidad semiótica anterior, al mismo tiempo que i
 
 De las relaciones entre las macrosemióticas y su proceso de desarrollo o génesis debemos aclarar dos puntos importantes:
 
-1. El abandono de un campo semiótico en favor del otro no está dado por una disposición natural del sujeto, asociada a su lucidez, franqueza, o disposición natural,[16] sino que en esa historia se oculta un conflicto o crisis, por medio de la cual el modo anterior ha perdido capacidad de contener a las partes en conflicto. La representación de que el sujeto, si piensa bien, si razona lucidamente, o si le damos suficiente tiempo para que reflexione, va a advertir -debido a una especie de disposición natural- las cualidades de las formas del pensar de otras formas de vida distintas a las suyas, es por lo menos ingenua y no tiene en cuenta, en principio, las condiciones materiales en las que el método se ha producido (y la forma de vida que con él se reproduce) que pueden seguir existiendo y predominando. Por muy lúcido que el sujeto sea, si no se han manifestado condiciones críticas para que el método pueda ser “levantado”, el individuo apelará a la única estrategia habilitada en su medio, y a la cual se halla sujetado.
+- El abandono de un campo semiótico en favor del otro no está dado por una disposición natural del sujeto, asociada a su lucidez, franqueza, o disposición natural,[16] sino que en esa historia se oculta un conflicto o crisis, por medio de la cual el modo anterior ha perdido capacidad de contener a las partes en conflicto. La representación de que el sujeto, si piensa bien, si razona lucidamente, o si le damos suficiente tiempo para que reflexione, va a advertir -debido a una especie de disposición natural- las cualidades de las formas del pensar de otras formas de vida distintas a las suyas, es por lo menos ingenua y no tiene en cuenta, en principio, las condiciones materiales en las que el método se ha producido (y la forma de vida que con él se reproduce) que pueden seguir existiendo y predominando. Por muy lúcido que el sujeto sea, si no se han manifestado condiciones críticas para que el método pueda ser “levantado”, el individuo apelará a la única estrategia habilitada en su medio, y a la cual se halla sujetado.
 
-1. Una vez alcanzado el nivel superior, las macrosemióticas no coexisten de un modo pacífico “uno junto a otro” sino más bien como relación de fuerza, es decir, están en permanentes conflictos mediatizados por las operaciones simbólicas que, en cada una de sus fases, ha podido elaborar el todo social para mantener cohesionadas sus partes.
+- Una vez alcanzado el nivel superior, las macrosemióticas no coexisten de un modo pacífico “uno junto a otro” sino más bien como relación de fuerza, es decir, están en permanentes conflictos mediatizados por las operaciones simbólicas que, en cada una de sus fases, ha podido elaborar el todo social para mantener cohesionadas sus partes.
 
 El dinamismo de la macrosemiótica tecnoeconómica, en la cual se ha constituido paulatinamente el Capitalismo como sistema de producción, queda explicado para Samaja por la supremacía que se otorga a las innovaciones, es decir a las acciones de transformación por sobre las de estabilidad y la preservación de los estratos anteriores. Es precisamente en este último estrato donde las operaciones de sustitución o desviación de la discursividad esperada, que de suyo derivan en una transgresión normativa, se resignifican y subvierten, y donde antes se veía únicamente la desintegración de lo común, ahora se encuentra un valor para el progreso social.[17] Es en el novísimo protagonismo de las tecnologías y los objetos diseñados donde se adjudica al diseñador una función determinante en todo el proceso social. [18]
 
@@ -102,7 +102,7 @@ El modelo es una aceptable representación del mundo, y, por lo tanto, delimita 
 
 En tanto que el objeto no puede ser para nosotros sino la proyección en el campo de las representaciones de aquellas interacciones potenciales e imaginables con el objeto, el conjunto de dichas interacciones habrá de constituir necesariamente nuestra ontología circunscripta para ese objeto en tanto sentido vivido, representado y sostenido por la reproducción material de dichas interacciones.[24]
 
-"[…] el objeto es para mí aquello que yo hago con el objeto, por lo tanto, los límites reales de mi representación serán a su vez los límites materiales de mi acción, ya que los límites de mi acción están cartografiados sobre los límites de mi representación sobre el objeto".[25]
+"(…) el objeto es para mí aquello que yo hago con el objeto, por lo tanto, los límites reales de mi representación serán a su vez los límites materiales de mi acción, ya que los límites de mi acción están cartografiados sobre los límites de mi representación sobre el objeto".[25]
 
 ### La función imputatoria del modelo
 
@@ -118,11 +118,11 @@ Hemos mencionado que el modelo no debe concebirse únicamente como una represent
 
 Sobre estos grandes modelos bastante se ha escrito, y entre los grandes referentes encontramos a G.W. Hegel, quien propone 3 grandes modelos u ontologías posibles: el modelo físico o mecánico; el químico o procesual; y el teleológico u organísmico. [26]
 
-1. El modelo fisicalista o mecanicista consiste en representarse la realidad en la forma de un mecanismo, cuya característica eminente es la relación de exterioridad entre sus partes, y la existencia meramente agregada de la situación, supeditada o dominada por fuerzas causales exteriores. La realidad de las interacciones no depende de las partes sino de las causas que las mueven en cierta dirección, de modo tal que las interacciones, al ser efectos, no son causa de su propia forma de relación, y por lo tanto la forma de su relación se encuentra determinada exteriormente. La exterioridad domina la realidad mecánica: de las partes entre sí y de las partes en relación al conjunto.
+- El modelo fisicalista o mecanicista consiste en representarse la realidad en la forma de un mecanismo, cuya característica eminente es la relación de exterioridad entre sus partes, y la existencia meramente agregada de la situación, supeditada o dominada por fuerzas causales exteriores. La realidad de las interacciones no depende de las partes sino de las causas que las mueven en cierta dirección, de modo tal que las interacciones, al ser efectos, no son causa de su propia forma de relación, y por lo tanto la forma de su relación se encuentra determinada exteriormente. La exterioridad domina la realidad mecánica: de las partes entre sí y de las partes en relación al conjunto.
 
-1. El modelo químico o procesual presupone ya la categoría de estructura o retroalimentación, acción y reacción, de lo cual resulta que la situación no depende completamente del exterior sino también de cierto grado de estabilidad de la realidad estructurada y de su inercia.
+- El modelo químico o procesual presupone ya la categoría de estructura o retroalimentación, acción y reacción, de lo cual resulta que la situación no depende completamente del exterior sino también de cierto grado de estabilidad de la realidad estructurada y de su inercia.
 
-1. El modelo organísmico presupone relaciones de interioridad y autoengendramiento entre las partes y el todo. A diferencia del quimismo, la totalidad organismica se autosostiene. Por supuesto que el organismo vivo también depende de las condiciones externas en cierta medida, pero las modificaciones en las condiciones no derivan automáticamente en una negación del organismo, sino en una estrategia de autoconservación, es decir, en una resistencia. Es en último modelo donde encontramos la noción de finalidad o valor que se halla en el núcleo de las ideas en torno al desarrollo, tal como lo estamos proponiendo.
+- El modelo organísmico presupone relaciones de interioridad y autoengendramiento entre las partes y el todo. A diferencia del quimismo, la totalidad organismica se autosostiene. Por supuesto que el organismo vivo también depende de las condiciones externas en cierta medida, pero las modificaciones en las condiciones no derivan automáticamente en una negación del organismo, sino en una estrategia de autoconservación, es decir, en una resistencia. Es en último modelo donde encontramos la noción de finalidad o valor que se halla en el núcleo de las ideas en torno al desarrollo, tal como lo estamos proponiendo.
 
 En torno a estos grandes modelos, corresponde la misma dinámica que ya hemos señalado a propósito de las macrosemióticas, a saber, que cada uno es condición material de existencia para el siguiente, y el último instancia de regulación para los anteriores.
 
@@ -259,5 +259,7 @@ En la medida en que el producto no deviene materia semiótica y por ende símbol
 [38] No tenemos espacio aquí para exponer con detalle estas nociones, por lo cual remitimos al lector interesado en el análisis ontológico del Dr. Samaja a la lectura de su trabajo Epistemologia de la salud (2007). Asimismo, respecto del desarrollo de las categorías narrativas que mencionamos de nuestro análisis semiótico (situación, personaje y estructura) remitimos también al lector a nuestro trabajo en Samaja, 2012.
 
 [39] Situación es una acción aislada que no se ha subjetivado,es decir,una práctica que no se ha cristalizado en la forma de un sujeto para esa práctica; Personaje, en cambio, remite a la subjetivación de una acción, que hace posible que un determinado tipo de práctica defina a un determinado tipo de sujeto que realiza esa práctica de modo constante. Finalmente, llamamos Estructura al sistema de relaciones instituidas (formales) que regulan la necesidad de ciertos sujetos con derecho (cualificados) a la realización de ciertas operaciones determinadas para la reproducción misma del sistema como totalidad relacional.Sobre un desarrollo más extenso de estas tres categorías, y de su aplicación en el contexto propiamente narrativo del cual han emergido, remitimos al lector a nuestro artículo de “Estructura cómica, personajes cómicos y situaciones cómicas. Cuestiones formales en el análisis del género cinematográfico pre-institucional” en: III Congreso de la Asociación Argentina de Estudios de Cine y Audiovisual (AsAECA), Córdoba, 10 al 12 de mayo de 2012.
+
+</br>
 
 ---
