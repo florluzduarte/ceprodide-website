@@ -5,15 +5,13 @@ date: 2020-09-25
 author: INTA - IPAF Pampeana
 image:
   {
-    src: "https://res.cloudinary.com/dfzncn1pd/image/upload/v1677095220/CEPRODIDE/Blog/image-3_aazygi.avif",
-    alt: "Imagen vaca lechera pastando",
+    src: "https://res.cloudinary.com/dgixc3e9z/image/upload/v1677867512/website-ceprodide/image-5-min_rba12l.avif",
+    alt: "Imagen vaca lechera y de personas trabajando en un tambo",
   }
 description: Productores de seis provincias argentinas destacaron el impacto que tendrá en sus territorios la incorporación de una ensachetadora y pasteurizadora diseñada por el INTA y la UBA.
 draft: false
 categories: [Innovación, Tecnología]
 ---
-
-<br/>
 
 ---
 
@@ -21,11 +19,7 @@ Originalmente publicado por el Instituto de Tecnología Agropecuaria en [INTA - 
 
 ---
 
-</br>
-
 Productores de seis provincias argentinas destacaron el impacto que tendrá en sus territorios la incorporación de una ensachetadora y pasteurizadora diseñada por el INTA y la UBA. Lo hicieron en una reunión virtual organizada por el Ministerio de Desarrollo Social y el CIPAF. Los participantes valorizaron la posibilidad de producir leche segura, de calidad y a precio justo para los agricultores familiares y sus comunidades.
-
-(imagen)
 
 Bajo la coordinación de la Directora de Mercados Solidarios del Ministerio de Desarrollo Social de la Nación, Eva Verde, se llevó adelante un encuentro virtual con representantes de 13 organizaciones de productores familiares de seis provincias que van a utilizar una novedosa ensachetadora y pasteurizadora diseñada en conjunto por el INTA Argentina y la FADU (UBA). El equipo permite envasar y pasteurizar la leche directamente en el sachet, para su distribución en circuitos cortos.
 
@@ -36,6 +30,8 @@ Gracias a esta iniciativa, los agricultores y agricultoras de Formosa, Santa Fe,
 Por su parte, Raquel Ariza, docente de la FADU- UBA, responsable del desarrollo conjunto del equipamiento advirtió:
 
 > "Detectamos necesidades reales y tratamos de buscar soluciones para mejorar la calidad de vida. Este es un producto que se diseñó y desarrolló en Argentina pero puede servir para otros países".
+
+![imagen de persona ordeñando una vaca](https://res.cloudinary.com/dgixc3e9z/image/upload/q_auto:eco/v1677867513/website-ceprodide/image-6-min_di7gvd.avif)
 
 Las primeras 13 ensachetadoras acordadas para su distribución con el Ministerio de Desarrollo Social de la Nación beneficiarán a 96 destinatarios directos, de los cuales 56% son mujeres. El impacto de la tecnología alcanzará en total a 439 familias de las seis provincias. La nueva maquinaría permitirá reducir el consumo de leche no pasteurizada, generará condiciones para descentralizar las producciones y fomentará los mercados de proximidad.
 
