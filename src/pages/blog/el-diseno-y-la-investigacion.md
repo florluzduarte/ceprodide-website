@@ -5,7 +5,7 @@ date: 2021-07-15
 author: D.I. Malena Pasin
 image:
   {
-    src: "https://res.cloudinary.com/dfzncn1pd/image/upload/v1677095220/CEPRODIDE/Blog/image-3_aazygi.avif",
+    src: "https://res.cloudinary.com/dgixc3e9z/image/upload/v1677865732/website-ceprodide/image-3_aazygi_qznmow.avif",
     alt: "Imagen de un cuaderno con bocetos y croquis",
   }
 description: Exploremos la conexión que existe entre el Diseño y la Investigación
@@ -20,8 +20,6 @@ categories: [Investigación, Educación]
 Originalmente publicado en [Fundación Gutenberg](https://fundaciongutenberg.edu.ar/contenidos/news04/el-diseno-y-la-investigacion.html)
 
 ---
-
-</br>
 
 > La exploración de nuevos escenarios de la práctica disciplinar, desarrolla la relación entre diseño e investigación formando un diseñador reflexivo, propositivo y crítico, capaz de fundamentar sus hipótesis de proyecto y de producto.
 
@@ -40,6 +38,8 @@ La exploración de nuevos escenarios de la práctica disciplinar, desarrolla la 
 La profesión se expande, los límites se vuelven inciertos, los problemas son según Dorst, abiertos, complejos, dinámicos e interconectados. El diseñador experimenta la adrenalínica sensación de ser un “pensador intruso”, siguiendo la potente idea de Wagensberg, con espíritu interdisciplinario para servir de hilván, de sostén, de red, de múltiples áreas que pueden ser articuladas con las lógicas del diseño.
 
 Entonces, a través de visibilizar las lógicas de la investigación científica, hacemos operativamente más tangible el proceso de toma de decisiones del diseño. Las decisiones heurísticas, amplias del diseño, se verán beneficiadas con la estructura de soporte que puedan brindarle los procesos más consolidados de investigación científica.
+
+![diseñadores trabajando sobre el prototipo de una silla](https://res.cloudinary.com/dgixc3e9z/image/upload/v1677865812/website-ceprodide/image-4_c0wh98.avif)
 
 ### Las etapas del proceso de investigación en diseño
 

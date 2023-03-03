@@ -5,15 +5,13 @@ date: 2018-05-23
 author: Juan Alfonso Samaja y Beatriz Galán
 image:
   {
-    src: "https://res.cloudinary.com/dfzncn1pd/image/upload/v1677095220/CEPRODIDE/Blog/image-3_aazygi.avif",
-    alt: "Imagen de un cuaderno con bocetos y croquis",
+    src: "https://res.cloudinary.com/dgixc3e9z/image/upload/v1677867292/website-ceprodide/image-7_eozegw.avif",
+    alt: "Imagen de un cuadro pintado con colores primarios y figuras geométricas",
   }
 description: Semiótica de las innovaciones en el proceso del Diseño
 draft: false
 categories: [Metodología, Semiótica]
 ---
-
-<br/>
 
 ---
 
@@ -21,8 +19,6 @@ Publicado originalmente en [Caiana](http://caiana.caia.org.ar/template/caiana.ph
 N° 12 | Año 2018 en línea desde el 4 julio 2012.
 
 ---
-
-<br/>
 
 ## Semiótica de las innovaciones en el proceso del Diseño
 
@@ -46,9 +42,17 @@ En la lógica del pensamiento organizado, la necesidad, expresada inicialmente c
 
 ### El ser del proyecto como dialéctica entre reproducción de lo mismo y producción de lo novedoso
 
-Toda confrontación entre el sujeto y su medio puede presentarse de dos maneras: el sujeto y su medio se hallan conformando una unidad de funcionamiento, o bien el medio y el sujeto se encuentran escindidos, de modo tal que cada uno se presenta como una exterioridad para el otro, como un obstáculo de su unidad. En la lógica de las narraciones se denomina canonicidad al primer estado, y fechoría o alteración de la discursividad esperada al segundo.[7]Este obstáculo o escisión entre sujeto y medio puede manifestarse del modo siguiente: 1) el sujeto busca imponer su lógica al medio, anular el orden imperante; 2) el sujeto pretende intervenir en el medio generando alguna transformación parcial; 3) el sujeto busca acomodarse al orden ya existente, asumir la normativa que se le impone.
+Toda confrontación entre el sujeto y su medio puede presentarse de dos maneras: el sujeto y su medio se hallan conformando una unidad de funcionamiento, o bien el medio y el sujeto se encuentran escindidos, de modo tal que cada uno se presenta como una exterioridad para el otro, como un obstáculo de su unidad. En la lógica de las narraciones se denomina canonicidad al primer estado, y fechoría o alteración de la discursividad esperada al segundo.[7]Este obstáculo o escisión entre sujeto y medio puede manifestarse del modo siguiente:
 
-Si la investigación es concebida como un proceso orientado a la modificación de las creencias propias, entonces el proceso por el cual un sujeto investiga no puede sino concluir en un cambio de sentido como producto de ese proceso. Pero la desviación en la lectura sobre un fenómeno puede presentar dos alternativas: a) el sujeto se desvía de su propia normalidad interpretativa adecuando su marco de lectura –y por lo tanto modificándolo– a la realidad del fenómeno en que se encuentra; o b) el sujeto pone en escena una lectura sobre el contexto que –sin constituir una desviación de la normalidad del sujeto interpretante– resulta subversiva respecto de las normas actuales con que se rige el fenómeno interpretado. En este último caso, el sujeto no pretende acomodarse a un fenómeno que considera realizado, sino que lo subsume a la lógica de sus acciones y de sus intelecciones. Aquí las desviaciones de la interpretación normal se enmarcarán en procesos profundamente conflictivos en relación a los contextos normales de una comunidad. De allí que este tipo de cambio de sentido que el sujetos proponga presente la estructura de la alteración canónica.
+- el sujeto busca imponer su lógica al medio, anular el orden imperante;
+- el sujeto pretende intervenir en el medio generando alguna transformación parcial;
+- el sujeto busca acomodarse al orden ya existente, asumir la normativa que se le impone.
+
+Si la investigación es concebida como un proceso orientado a la modificación de las creencias propias, entonces el proceso por el cual un sujeto investiga no puede sino concluir en un cambio de sentido como producto de ese proceso. Pero la desviación en la lectura sobre un fenómeno puede presentar dos alternativas:
+
+- el sujeto se desvía de su propia normalidad interpretativa adecuando su marco de lectura –y por lo tanto modificándolo– a la realidad del fenómeno en que se encuentra; o
+
+- el sujeto pone en escena una lectura sobre el contexto que –sin constituir una desviación de la normalidad del sujeto interpretante– resulta subversiva respecto de las normas actuales con que se rige el fenómeno interpretado. En este último caso, el sujeto no pretende acomodarse a un fenómeno que considera realizado, sino que lo subsume a la lógica de sus acciones y de sus intelecciones. Aquí las desviaciones de la interpretación normal se enmarcarán en procesos profundamente conflictivos en relación a los contextos normales de una comunidad. De allí que este tipo de cambio de sentido que el sujetos proponga presente la estructura de la alteración canónica.
 
 > "La operación de cambio de sentidosobre la lectura del territorio(...)Equivale a un desvío sobre la interpretación normaly esperable. Se produce por una conmutación en una variable del objeto, que remite a una lectura no-esperada del territorio, pero que responde a una descripción nueva del mismo(...)". [8]
 
@@ -76,9 +80,7 @@ Según la tesis de Samaja, dichos campos semióticos delimitan de un modo espec�
 
 Presentamos a continuación el sistema completo de las macrosemióticas, organizado en forma “ascendente”, es decir, ubicando el estrato más simple en la base del cuadro, y el más complejo en la parte superior.
 
-| MS  | Método   | Posición de Sujeto |
-| --- | -------- | ------------------ |
-| TE  | Eficacia | Sociedad Civil     |
+![gráfico](https://res.cloudinary.com/dgixc3e9z/image/upload/q_auto:good/v1677870395/website-ceprodide/esquema-semiotica_ppfiks.avif)
 
 Una de las consecuencias importantes de esta concepción de los campos de sentido que Samaja propone en su Semiótica de la Ciencia es que una totalidad relacional y autoregulada, por paradójico que resulte, jamás puede ser resultado de una mera acumulación de elementos dispersos, como un mero agregado, sino que en todos los casos y de modo invariante, una totalidad actual es consecuencia de una totalidad anterior cuyo estado del Ser ha entrado en una fase de crisis.
 
@@ -151,6 +153,8 @@ Podemos atravesar estas 3 fases que hemos presentado con un único ejemplo: el d
 Es interesante advertir que el uso desviado de Frileo no sólo aparece como una eventualidad entre otras anteriores, contemporáneas o posteriores posibles, sino que instituyó a partir de entonces este uso específico para el objeto en nuestro país, transformándolo no sólo en su materialidad, sino –lo que es más importante– en su dimensión simbólica: de “parche” a accesorio de diseño para la vestimenta.
 
 Ahora bien, este uso instituido del modelo no sólo afecta los modos de producción, sino también los de distribución y consumo de modo que la producción institucionalizada deviene a tal punto entidad simbólica que impide u obstaculiza de modo significativo el modo diferencial en que se accede y se consume dicho producto. De allí que no sólo sea deseable tener un “parche pituco” (que podría hacerse cada uno de manera doméstica, por ejemplo), sino tener el “Pitucón Legítimo”. Esta separación posible entre quienes producen y quienes simplemente consumen tiene necesariamente que realizarse en un sistema en el que las producciones han devenido un fetiche (Fig. 1).[36]
+
+![figura 1](https://res.cloudinary.com/dgixc3e9z/image/upload/q_auto:eco/v1677870791/website-ceprodide/CAIANA_12D_SAMAJA_Y_GAL%C3%81N_FIG.1_ssre8p.avif)
 
 Retomando esta epigénesis del modelo en el campo de las innovaciones, podemos mencionar las siguientes situaciones posibles: Mientras que en el primer momento no se ha enfrentado aun el modelo con otro modelo oponente (y por lo tanto sólo se representan las interacciones previstas –el mundo de las puras posibilidades o ser de primero,en la terminología peirciana–), en el segundo, el modelo enfrenta la otredad de representaciones diversas que se desvían eventualmente de las interacciones previstas (el mundo de los existentes o el el ser de segundo). Finalmente, en el tercero ocurre la fase de cristalización y unificación de los modelos diversos donde se instituye un modelado hegemónico que no sólo propone interacciones ejemplares, sino que constituye al mismo tiempo el campo de las acciones en las que el modelo es pertinente y socialmente pregnante; donde el modelo ha devenido regla para la conservación de las partes y la reproducción del todo (el mundo de los necesarios o ser de tercero). [37]
 

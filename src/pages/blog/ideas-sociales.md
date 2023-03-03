@@ -5,23 +5,19 @@ date: 2005-07-30
 author: Beatriz Galán
 image:
   {
-    src: "https://res.cloudinary.com/dfzncn1pd/image/upload/v1677095220/CEPRODIDE/Blog/image-3_aazygi.avif",
-    alt: "Imagen de un cuaderno con bocetos y croquis",
+    src: "https://res.cloudinary.com/dgixc3e9z/image/upload/q_auto:good/v1677868453/website-ceprodide/image-8-min_tw7xdz.avif",
+    alt: "Personas caminando en un la ciudad",
   }
 description: La diseñadora industrial Beatriz Galán responde desde lo académico a la demanda de diseño de varias organizaciones sociales. Al frente de un grupo, protagoniza una interacción entre lo ético y lo estético, buscando nuevos modelos de organización que perduren en el tiempo y permitan crecer.
 draft: false
 categories: [Innovación, Sociedad]
 ---
 
-<br/>
-
 ---
 
 Publicado originalmente en el suplemento M2 del diario [Página 12](https://www.pagina12.com.ar/diario/suplementos/m2/10-748-2005-07-30.html). Nota realizada por Luján Cambariere.
 
 ---
-
-<br/>
 
 > La diseñadora industrial Beatriz Galán responde desde lo académico a la demanda de diseño de varias organizaciones sociales. Al frente de un grupo, protagoniza una interacción entre lo ético y lo estético, buscando nuevos modelos de organización que perduren en el tiempo y permitan crecer.
 
