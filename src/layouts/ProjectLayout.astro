@@ -6,7 +6,7 @@ import "../styles/global.css";
 import MainLayout from "./MainLayout.astro";
 
 // Components
-import Hero from "../components/Hero.astro";
+import ProjectPostHeader from "../components/ProjectPostHeader.astro";
 
 // Props
 const { frontmatter } = Astro.props;
@@ -18,8 +18,7 @@ const { title, author, image, description } = frontmatter;
   content={description}
   style={"main-blog"}
 >
-  <Hero title={title} caption={author} />
-  <img src={image.src} alt={image.alt} />
+  <ProjectPostHeader {title} {author} {image} />
   <div class="project--content-container">
     <div class="project--content">
       <slot />

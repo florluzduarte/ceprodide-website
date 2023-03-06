@@ -6,10 +6,11 @@ import "../styles/global.css";
 import MainLayout from "./MainLayout.astro";
 
 // Components
-import Hero from "../components/Hero.astro";
+// import Hero from "../components/Hero.astro";
+import BlogPostHeader from "../components/BlogPostHeader.astro";
 
 // Utils
-import { formatDate } from "../js/utils";
+// import { formatDate } from "../js/utils";
 
 // Props
 const { frontmatter } = Astro.props;
@@ -17,21 +18,7 @@ const { title, date, author, image, description, categories } = frontmatter;
 ---
 
 <MainLayout title="CEPRODIDE - Blog" content={description} style="main-blog">
-  <Hero title={title} caption={author}>
-    <div class="blog--details-wrapper">
-      <div>
-        <div class="blog--category-wrapper">
-          {
-            categories.map((category) => (
-              <p class="blog--category">{category}</p>
-            ))
-          }
-        </div>
-      </div>
-      <p>Publicación: {formatDate(date)}</p>
-    </div>
-  </Hero>
-  <img src={image.src} alt={image.alt} />
+  <BlogPostHeader {title} {author} {categories} {date} {image} />
   <div class="blog--content-container">
     <div class="blog--content">
       <slot />
@@ -51,27 +38,7 @@ const { title, date, author, image, description, categories } = frontmatter;
     gap: 1.5rem;
   }
 
-  .blog--category-wrapper {
-    display: flex;
-    gap: 1rem;
-  }
-
-  .blog--category {
-    background-color: var(--bkg);
-    padding: 4px 10px;
-    border: 2px solid var(--blue);
-    border-radius: 4px;
-  }
-
-  .blog--details-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-  }
-
-  . @media screen and (min-width: 760px) {
+  @media screen and (min-width: 760px) {
     .blog--content-container {
       margin: 5rem auto;
     }
