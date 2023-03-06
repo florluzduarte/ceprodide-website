@@ -53,11 +53,13 @@ body {
 .main {
   max-width: 1200px;
   margin: auto;
+  min-height: 100vh;
 }
 
 .main-blog {
   max-width: 1366px;
   margin: auto;
+  min-height: 100vh;
 }
 
 /* Font styles */
