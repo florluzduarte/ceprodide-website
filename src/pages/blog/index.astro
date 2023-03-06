@@ -4,6 +4,9 @@ import MainLayout from "../../layouts/MainLayout.astro";
 
 // Components
 import Hero from "../../components/Hero.astro";
+import BlogPostCard from "../../components/BlogPostCard.astro";
+
+const allBlogPosts = await Astro.glob("./*.md");
 ---
 
 <MainLayout
@@ -12,12 +15,24 @@ import Hero from "../../components/Hero.astro";
   style={"main"}
 >
   <Hero title="Publicaciones" caption="Blog del centro y sus colaboradores" />
-  <section class="post--container">
-    <ul>
-      <li><a href="/blog/el-diseno-y-la-investigacion">Artículo 1</a></li>
-      <li><a href="/blog/de-la-materialidad-al-signo">Artículo 2</a></li>
-      <li><a href="/blog/innovacion-con-impacto-territorial">Artículo 3</a></li>
-      <li><a href="/blog/ideas-sociales">Artículo 4</a></li>
-    </ul>
+  <section class="post--container" aria-label="Nuevas publicaciones">
+    {allBlogPosts.map((post) => <BlogPostCard {post} />)}
   </section>
 </MainLayout>
+
+<style>
+  .post--container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 1rem 2rem 1rem;
+    gap: 1rem;
+  }
+
+  @media screen and (min-width: 765px) {
+    .post--container {
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin: 0 2rem 4rem 2rem;
+    }
+  }
+</style>

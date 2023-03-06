@@ -1,0 +1,79 @@
+---
+// Integrations
+import { Icon } from "astro-icon";
+
+// Props
+const { post } = Astro.props;
+
+const { title, description } = post.frontmatter;
+
+const blogPostUrl = post.url;
+---
+
+<article>
+  <div class="card--container">
+    <a href={blogPostUrl} title="Leer artículo" class="card--link">
+      <Icon
+        name="ri:book-open-line"
+        height="24"
+        width="24"
+        class="card--icon"
+      />
+      <h2 class="card--title">{title}</h2>
+      <p>{description}</p>
+      <p class="card--cta">Leer más...</p>
+    </a>
+  </div>
+</article>
+
+<style>
+  .card--container {
+    border: 1px solid var(--bkg-inverse);
+    border-radius: 0.5rem;
+  }
+
+  .card--container:hover {
+    border: 1px solid var(--blue);
+  }
+
+  .card--link {
+    text-decoration: none;
+    color: var(--text-color);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .card--icon {
+    color: var(--blue);
+  }
+
+  .card--cta {
+    color: var(--blue);
+    font-weight: 700;
+  }
+
+  @media screen and (min-width: 359px) and (max-width: 764px) {
+    .card--container {
+      margin: 0 1rem;
+    }
+  }
+
+  @media screen and (min-width: 765px) {
+    .card--container {
+      min-height: 100%;
+      border: 1.5px solid var(--bkg-inverse);
+    }
+
+    .card--container:hover {
+      border: 1.5px solid var(--blue);
+    }
+
+    .card--link {
+      padding: 2rem;
+    }
+  }
+</style>
