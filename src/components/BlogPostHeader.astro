@@ -1,0 +1,50 @@
+---
+// Components
+import Hero from "../components/Hero.astro";
+
+// Utils
+import { formatDate } from "../js/utils";
+
+// Props
+const { title, author, categories, date, image } = Astro.props;
+---
+
+<header>
+  <Hero title={title} caption={author}>
+    <div class="blog--details-wrapper">
+      <div>
+        <div class="blog--category-wrapper">
+          {
+            categories.map((category) => (
+              <p class="blog--category">{category}</p>
+            ))
+          }
+        </div>
+      </div>
+      <p>Publicación: {formatDate(date)}</p>
+    </div>
+  </Hero>
+  <img src={image.src} alt={image.alt} />
+</header>
+
+<style>
+  .blog--category-wrapper {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .blog--category {
+    background-color: var(--bkg);
+    padding: 4px 10px;
+    border: 2px solid var(--blue);
+    border-radius: 4px;
+  }
+
+  .blog--details-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+</style>

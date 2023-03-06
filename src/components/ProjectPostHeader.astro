@@ -1,0 +1,12 @@
+---
+// Components
+import Hero from "../components/Hero.astro";
+
+// Props
+const { title, author, image } = Astro.props;
+---
+
+<header>
+  <Hero title={title} caption={author} />
+  <img src={image.src} alt={image.alt} />
+</header>
