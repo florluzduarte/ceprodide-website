@@ -21,7 +21,7 @@ El rol del diseño es trasformar un desarrollo científico en un producto social
 
 ## Perfil del emprendimiento
 
-### ¿Desde cuando existe?
+### ¿Desde cuándo existe?
 
 En 1993, Andrea Vega inicia su especialización en la familia de las Gramíneas o pastos (Poaceae) y, a partir de 2008, comienza una línea de investigación en ciencia básica centrada en los bambúes leñosos (Bambuseae). Dicha línea de trabajo en bambúes tiene un enfoque interdisciplinario ya que aúna conocimientos aportados por la taxonomía, morfología, anatomía, fenología, biología molecular y filogenia, constituyendo la base para estudios aplicados.
 
