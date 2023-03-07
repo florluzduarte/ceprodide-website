@@ -1,0 +1,57 @@
+---
+// Components
+import BlogPostCard from "./BlogPostCard.astro";
+import Link from "./Link.astro";
+
+// Props
+const blogPosts = await Astro.glob("../pages/blog/*.md");
+const lastPost = blogPosts.length - 1;
+const secondLastPost = blogPosts.length - 2;
+---
+
+<section class="blog--ref">
+  <h2>Últimas publicaciones</h2>
+  <span class="line"></span>
+  <div
+    class="blog--ref--article--container"
+    aria-lable="Últimas publicaciones del blog"
+  >
+    <BlogPostCard post={blogPosts[lastPost]} />
+    <BlogPostCard post={blogPosts[secondLastPost]} />
+  </div>
+  <div class="blog--ref--cta">
+    <Link href="/blog" style={"primary"} text="Visitar el blog" />
+  </div>
+</section>
+
+<style>
+  .blog--ref {
+    display: flex;
+    flex-direction: column;
+    max-width: 85%;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .blog--ref--article--container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+    gap: 1rem;
+  }
+
+  .blog--ref--cta {
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 765px) {
+    .blog--ref--article--container {
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin-bottom: 4rem;
+    }
+  }
+</style>
