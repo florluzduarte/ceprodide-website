@@ -13,14 +13,12 @@ import goals from "../data/goals.json";
     {
       goals.map((goal) => (
         <div class="goals--wrapper">
-          <div class="goals--icon-wrapper">
-            <Icon
-              name="ri:arrow-right-s-line"
-              width="24"
-              height="24"
-              class="goals--icon"
-            />
-          </div>
+          <Icon
+            name="ri:arrow-right-s-line"
+            width="24"
+            height="24"
+            class="goals--icon"
+          />
           <p class="goals--description">{goal.goal}</p>
         </div>
       ))
@@ -50,9 +48,8 @@ import goals from "../data/goals.json";
   }
 
   .goals--wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
   }
 
   .goals--description {
