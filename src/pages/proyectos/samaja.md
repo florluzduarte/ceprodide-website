@@ -9,10 +9,10 @@ image:
   }
 thumbnail:
   {
-    src: "https://res.cloudinary.com/dgixc3e9z/image/upload/v1678197822/website-ceprodide/thumbnails-projects/samaja-thumbnail_w4tgrt.png",
+    src: "https://res.cloudinary.com/dgixc3e9z/image/upload/q_auto:good/v1678197822/website-ceprodide/thumbnails-projects/samaja-thumbnail_w4tgrt.avif",
     alt: "Persona trabajando con una plaqueta electrónica",
   }
-description: Exploremos la conexión que existe entre el Diseño y las innovaciones disruptivas
+description: De las demandas sociales a los bienes de capital en baja escala con recursos de Open Technology
 draft: false
 ---
 

@@ -1,0 +1,64 @@
+---
+// Components
+import ProjectsCard from "./ProjectsCard.astro";
+import Link from "./Link.astro";
+
+// Props
+const projectsData = await Astro.glob("../pages/proyectos/*.md");
+const lastProject = projectsData.length - 1;
+const secondLastProject = projectsData.length - 2;
+---
+
+<section
+  class="projects--ref"
+  aria-label="Resumen projectos de investigación vigentes"
+>
+  <div class="projects--ref-section-title">
+    <h2>Projectos de investigación</h2>
+    <span class="line"></span>
+  </div>
+  <div class="projects--ref--article--container">
+    <ProjectsCard project={projectsData[lastProject]} />
+    <ProjectsCard project={projectsData[secondLastProject]} />
+  </div>
+  <div class="projects--ref--cta">
+    <Link href="/proyectos" style={"primary"} text="Ver todos los proyectos" />
+  </div>
+</section>
+
+<style>
+  .projects--ref {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .projects--ref-section-title {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projects--ref--article--container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+    gap: 1rem;
+  }
+
+  .projects--ref--cta {
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 765px) {
+    .projects--ref--article--container {
+      gap: 2rem;
+      margin-bottom: 4rem;
+    }
+  }
+</style>

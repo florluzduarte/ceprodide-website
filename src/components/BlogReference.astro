@@ -9,13 +9,10 @@ const lastPost = blogPosts.length - 1;
 const secondLastPost = blogPosts.length - 2;
 ---
 
-<section class="blog--ref">
+<section class="blog--ref" aria-lable="Últimas publicaciones del blog">
   <h2>Últimas publicaciones</h2>
   <span class="line"></span>
-  <div
-    class="blog--ref--article--container"
-    aria-lable="Últimas publicaciones del blog"
-  >
+  <div class="blog--ref--article--container">
     <BlogPostCard post={blogPosts[lastPost]} />
     <BlogPostCard post={blogPosts[secondLastPost]} />
   </div>
