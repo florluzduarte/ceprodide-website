@@ -7,6 +7,11 @@ image:
     src: "https://res.cloudinary.com/dgixc3e9z/image/upload/v1677865634/website-ceprodide/image-2_gksopy.avif",
     alt: "Persona sosteniendo un vaso de agua pura",
   }
+thumbnail:
+  {
+    src: "https://res.cloudinary.com/dgixc3e9z/image/upload/v1678197822/website-ceprodide/thumbnails-projects/bosi-thumbnail_kvcvyo.png",
+    alt: "Persona sosteniendo un vaso de agua",
+  }
 description: Guadar es un biocarbón impregnado con nanopartículas de hierro, capaz de proveer de agua libre de arsésico a pobalaciones dispersas
 draft: false
 ---
