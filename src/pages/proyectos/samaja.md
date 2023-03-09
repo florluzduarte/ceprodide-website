@@ -7,6 +7,11 @@ image:
     src: "https://res.cloudinary.com/dgixc3e9z/image/upload/v1677865964/website-ceprodide/image-1-avif_we4bc6.avif",
     alt: "Persona trabajando con una plaqueta electrónica",
   }
+thumbnail:
+  {
+    src: "https://res.cloudinary.com/dgixc3e9z/image/upload/v1678197822/website-ceprodide/thumbnails-projects/samaja-thumbnail_w4tgrt.png",
+    alt: "Persona trabajando con una plaqueta electrónica",
+  }
 description: Exploremos la conexión que existe entre el Diseño y las innovaciones disruptivas
 draft: false
 ---

@@ -4,6 +4,10 @@ import MainLayout from "../../layouts/MainLayout.astro";
 
 // Componentes
 import Hero from "../../components/Hero.astro";
+import ProjectsCard from "../../components/ProjectsCard.astro";
+
+// Props
+const allProjects = await Astro.glob("./*.md");
 ---
 
 <MainLayout title="CEPRODIDE - Proyectos" style={"main"}>
@@ -23,16 +27,19 @@ import Hero from "../../components/Hero.astro";
       </p>
     </div>
   </section>
-  <section class="abstracts--container">
-    <ul>
-      <li><a href="/proyectos/bosi">Guadar</a></li>
-      <li><a href="/proyectos/samaja">Samaja</a></li>
-    </ul>
+  <section
+    class="abstracts--container"
+    aria-label="Abstracts proyectos de investigación vigentes"
+  >
+    {allProjects.map((project) => <ProjectsCard {project} />)}
   </section>
 </MainLayout>
 
 <style>
   .abstracts--container {
-    padding: 0 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 3rem 0;
+    gap: 2rem;
   }
 </style>
