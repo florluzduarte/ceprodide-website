@@ -1,8 +1,24 @@
 ---
 // Layout
 import MainLayout from "../layouts/MainLayout.astro";
+
+// Components
+import Hero from "../components/Hero.astro";
+import ContactForm from "../components/ContactForm.astro";
 ---
 
 <MainLayout title="CEPRODIDE - Contacto">
-  <h1>Contacto</h1>
+  <Hero title="Contacto" caption="Datos del Centro" />
+  <p class="contact-description">
+    Por dudas o consultas sobre la actividad del Centro y sus investigadores no
+    dudes en comunicarte utilizando los siguientes medios de contacto:
+  </p>
+  <ContactForm />
 </MainLayout>
+
+<style>
+  .contact-description {
+    width: 85%;
+    margin: 0 auto;
+  }
+</style>
