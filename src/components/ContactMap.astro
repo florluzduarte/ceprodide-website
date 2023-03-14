@@ -1,0 +1,71 @@
+---
+---
+
+<section aria-label="Datos de Contacto">
+  <div class="contact-data--container">
+    <div class="contact-data--wrapper">
+      <div class="contact-email--wrapper">
+        <p class="contact-data--title">EMAIL DE CONTACTO:</p>
+        <p>ceprodide@fadu.uba.ar</p>
+      </div>
+      <div class="contact-adress--wrapper">
+        <p class="contact-data--title">DIRECCIÓN DEL CENTRO:</p>
+        <p>
+          Int. Güiraldes 2160, Cuidad Universitaria. Pabellón 3, Piso 4, +ID
+          LAB. Facultad de Arquitectura, Diseño y Urbanismo, Universidad de
+          Buenos Aires, Argentina (FADU-UBA).
+        </p>
+      </div>
+    </div>
+    <div class="google-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.4909761914937!2d-58.445991785054446!3d-34.541122261695186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb4391a09398f%3A0xe7e2a52227aa49ed!2sFacultad%20de%20Arquitectura%2C%20Dise%C3%B1o%20y%20Urbanismo%20-%20UBA!5e0!3m2!1ses!2sar!4v1678797520840!5m2!1ses!2sar"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<style>
+  .google-map iframe {
+    width: 100%;
+  }
+
+  .contact-data--wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 3rem auto;
+    width: 85%;
+  }
+
+  .contact-data--title {
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+
+  .contact-email--wrapper,
+  .contact-adress--wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .contact-data--container {
+    margin: 2rem 0;
+  }
+
+  @media screen and (min-width: 1023px) {
+    .contact-data--wrapper {
+      width: 100%;
+    }
+
+    .contact-data--title {
+      font-size: 1.125rem;
+    }
+  }
+</style>

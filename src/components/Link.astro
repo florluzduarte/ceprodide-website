@@ -9,7 +9,7 @@ interface Props {
 const { text, href, style } = Astro.props as Props;
 ---
 
-<a href={href} class={style}>{text}</a>
+<a href={href} class={style} title={text}>{text}</a>
 
 <style>
   a.primary {

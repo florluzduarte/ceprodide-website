@@ -17,10 +17,12 @@ svg {
   /* Colors Light Mode */
   --blue-lm: #0339e1;
   --white: #f4f4f4;
+  --grey-lm: #d9d9d9;
 
   /* Colors Dark Mode */
   --blue-dm: #6c90ff;
   --black: #231f20;
+  --grey-dm: #2f2f2f;
 
   /* Light mode variables */
   --bkg: var(--white);
@@ -28,6 +30,7 @@ svg {
   --blue: var(--blue-lm);
   --bkg-inverse: var(--black);
   --text-color-inverse: var(--white);
+  --grey: var(--grey-lm);
   color-scheme: light;
 }
 
@@ -38,6 +41,7 @@ svg {
     --blue: var(--blue-dm);
     --bkg-inverse: var(--white);
     --text-color-inverse: var(--black);
+    --grey: var(--grey-dm);
     color-scheme: dark;
   }
 }
