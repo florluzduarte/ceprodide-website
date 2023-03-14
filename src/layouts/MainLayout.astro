@@ -15,7 +15,7 @@ interface Props {
 
 const {
   title = "CEPRODIDE",
-  content = "Centro de Proyecto, Diseño y Desarrollo (FADU-UBA)",
+  content = "Centro de Proyecto, Diseño y Desarrollo. Facultad de Arquitectura, Diseño y Urbanismo, Universidad de Buenos Aires (FADU-UBA)",
   style = "main",
 } = Astro.props as Props;
 ---
@@ -33,6 +33,26 @@ const {
     <link
       href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;700&display=swap"
       rel="stylesheet"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ceprodide.com.ar" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={content} />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/dgixc3e9z/image/upload/v1678804701/website-ceprodide/metatags/metatags-ceprodide_kqoceq.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://ceprodide.com.ar" />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={content} />
+    <meta
+      property="twitter:image"
+      content="https://res.cloudinary.com/dgixc3e9z/image/upload/v1678804701/website-ceprodide/metatags/metatags-ceprodide_kqoceq.png"
     />
   </head>
   <body>
