@@ -1,0 +1,26 @@
+---
+// Layout
+import MainLayout from "../layouts/MainLayout.astro";
+
+// Integration
+import { Icon } from "astro-icon";
+
+// Components
+import Hero from "../components/Hero.astro";
+import Link from "../components/Link.astro";
+---
+
+<MainLayout>
+  <Hero
+    title="Mensaje enviado"
+    caption="Tu consulta fue registrada correctamente"
+  >
+    <Icon
+      name="message_flatline-blue"
+      width={600}
+      alt="Ícono mensaje recibido"
+      class="message--icon"
+    />
+    <Link href="/" text="Volver al Inicio" style="primary" />
+  </Hero>
+</MainLayout>
