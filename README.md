@@ -1,46 +1,49 @@
-# Astro Starter Kit: Minimal
+# CEPRODIDE - Web Institucional
 
-```
-npm create astro@latest -- --template minimal
-```
+![logo ceprodide](https://res.cloudinary.com/dgixc3e9z/image/upload/v1678804701/website-ceprodide/metatags/metatags-ceprodide_kqoceq.png)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/withastro/astro/tree/latest/examples/minimal)
+## 📌 Introducción y resumen del proyecto
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Este proyecto es un sitio web institucional que desarrollé para el Centro de Proyecto, Diseño y Desarrollo de FADU-UBA. El mismo fue realizado en el marco de mi trabajo como Desarrolladora Front-end.
 
-## 🚀 Project Structure
+Además de proveer información relevante sobre el Centro, el sitio contempla un espacio de publicaciones (blog) donde se iran actualizado los artículos y documentos desarrollados por los investigadores, así como también, una sección dedicada a la difusión de los proyectos de investigación vigentes dentro del CEPRODIDE.
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🚀 Deploy
 
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Pueden acceder al sitio desde: [www.ceprodide.com.ar](https://www.ceprodide.com.ar)
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 🎯 Necesidades del cliente
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- Desarrollar un espacio web que pueda servir como consulta y repositorio de los trabajos desarrollados por los investigadores que forman parte de este Centro de Investigación.
+- Difundir las publicaciones y proyectos de investigación del Centro.
+- Proveer información de contacto y consulta para habilitar la comunicación con personas interesadas en el trabajo desarrollado al interior del Centro.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## 🔨 Tecnologías utilizadas
 
-## 🧞 Commands
+`Astro` --> Como framework web.  
+Se decidió trabajar con esta tecnología porque:
 
-All commands are run from the root of the project, from a terminal:
+- Ofrece excelente performance para sitios web con gran cantidad de contenido
+- Su estrategia de "Islas de contenido" permite minimizar la cantidad de JavaScript innecesario
+- Permite un buen trabajo con componentes reutilizables
 
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
+`Astro-Icons` --> Para el trabajo con íconos y optimización de gráficos SVG  
+`JavaScript` --> Como lenguaje de programación  
+`TypeScript` --> Para generar interfaces que faciliten el trabajo con datos y props  
+`Netlify` --> Como servicio para el deploy del proyecto  
+`Cloudinary` --> Como servicio para el almacenamiento y procesamiento de assets (imágenes)  
+`CSS` --> Para los estilos
+`HTML` --> Para la estructura
 
-## 👀 Want to learn more?
+## 🧞 Comandos
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Todos los comandos corren desde el root del proyecto, utilizando la terminal:
+
+| Comando                | Acción realizada                                   |
+| :--------------------- | :------------------------------------------------- |
+| `npm install`          | Instala todas las dependencias                     |
+| `npm run dev`          | Inicia un server de desarrollo en `localhost:3000` |
+| `npm run build`        | hace el build de producción en `./dist/`           |
+| `npm run preview`      | Para previsualizar el build antes de deployar      |
+| `npm run astro ...`    | Comandos de CLI como `astro add`, `astro check`    |
+| `npm run astro --help` | Ayuda para utilizar el CLI de Astro                |
