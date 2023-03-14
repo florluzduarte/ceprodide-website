@@ -4,13 +4,18 @@
 
 ## 📌 Introducción y resumen del proyecto
 
-Este proyecto es un sitio web institucional que desarrollé para el Centro de Proyecto, Diseño y Desarrollo de FADU-UBA. El mismo fue realizado en el marco de mi trabajo como Desarrolladora Front-end.
+Este proyecto es un sitio web institucional que desarrollé para el Centro de Proyecto, Diseño y Desarrollo de FADU-UBA.
 
 Además de proveer información relevante sobre el Centro, el sitio contempla un espacio de publicaciones (blog) donde se iran actualizado los artículos y documentos desarrollados por los investigadores, así como también, una sección dedicada a la difusión de los proyectos de investigación vigentes dentro del CEPRODIDE.
 
 ## 🚀 Deploy
 
 Pueden acceder al sitio desde: [www.ceprodide.com.ar](https://www.ceprodide.com.ar)
+
+## 💼 Mi rol en el proyecto
+
+- Frontend Developer
+- UX/UI Designer
 
 ## 🎯 Necesidades del cliente
 
@@ -34,6 +39,7 @@ Se decidió trabajar con esta tecnología porque:
 `Cloudinary` --> Como servicio para el almacenamiento y procesamiento de assets (imágenes)  
 `CSS` --> Para los estilos
 `HTML` --> Para la estructura
+`Figma` --> Para realizar diseños y prototipos
 
 ## 🧞 Comandos
 
